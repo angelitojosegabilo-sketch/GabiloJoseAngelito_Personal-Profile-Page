@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Profile</title>
+
+  <style>
+    body {
+      font-family: Arial;
+      margin: 0;
+      background: #ffffff;
+      color: #000000;
+    }
+
+    .about-container {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    header {
+      background: #000000;
+      color: #ffffff;
+      text-align: center;
+      padding: 15px;
+    }
+
+    nav {
+      background: #111111;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav a {
+      margin: 10px;
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: bold;
+    }
+
+    section {
+      background: #f2f2f2;
+      margin: 10px;
+      padding: 15px;
+      border-radius: 8px;
+    }
+
+    img {
+      width: 120px;
+      border-radius: 50%;
+      border: 2px solid #000;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th {
+      background: #000000;
+      color: #ffffff;
+    }
+
+    th, td {
+      border: 1px solid #000000;
+      padding: 8px;
+      text-align: center;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin: 5px 0;
+      border: 1px solid #000;
+    }
+
+    input:invalid {
+      border: 2px solid #555;
+    }
+
+    input:valid {
+      border: 2px solid #000;
+    }
+
+    button {
+      background: #000000;
+      color: #ffffff;
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #333333;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>My Profile</h1>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Me</h2>
+
+  <div class="about-container">
+
+    <a href="https://www.facebook.com/share/1C6YnDmpF1/" target="_blank">
+      <img src="2x2.jfif" alt="Profile Picture">
+    </a>
+
+    <div class="about-text">
+
+      <h1>JOSE ANGELITO GABILO</h1>
+
+      <p><strong>Date of Birth:</strong> May 22, 2000</p>
+      <p><strong>Place of Birth:</strong> Buhi, Camarines Sur</p>
+      <p><strong>Gender:</strong> Male</p>
+      <p><strong>Nationality:</strong> Filipino</p>
+      <p><strong>Civil Status:</strong> Single</p>
+
+        <p>
+        Hello! I'm Jose Angelito. Gabilo, also known as aka "Gelo", i'm 25  years old turning 26 years old this coming May 22, I'm a working student taking of Bachelor in Science  Information Technology Program at Pateros Technological College, (A.Y. 2025-2026 - Present)
+        I lived here in Brgy Buting, from 91B E Mendoza Street, Pasig City Manila.
+        I don't have any knowledge when it comes to coding, but i'm trying to learned more about it and explored to learned programming in the basic project, Because I know that I can do it, And I believed that I can improve it, Not only just to myself, but it also for my familys who's always cheer me up, That I can apply it and my future career.
+      </p>
+
+    </div>
+
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Technical Skills:</h2>
+  <table>
+    <tr>
+      <th>Skill</th>
+      <th>Level</th>
+    </tr>
+    <tr>
+      <td>HTML</td>
+      <td>Beginner</td>
+    </tr>
+    <tr>
+      <td>CSS</td>
+      <td>Beginner</td>
+    </tr>
+    <tr>
+      <td>Java</td>
+      <td>Beginner</td>
+    </tr>
+    <tr>
+      <td>Internet Research</td>
+      <td>Expert</td>
+    </tr>
+  </table>
+
+  <h2>Other Skills:</h2>
+  <table>
+    <tr>
+      <th>Skill</th>
+    </tr>
+    <tr>
+      <td>Writing (Sports News Journals)</td>
+    </tr>
+    <tr>
+      <td>Meeting Deadlines</td>
+    </tr>
+    <tr>
+      <td>Sportsmanship</td>
+    </tr>
+    <tr>
+      <td>Creativity</td>
+    </tr>
+  </table>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <form>
+    <input type="text" placeholder="Name" required>
+    <input type="email" placeholder="Email" required>
+    <textarea placeholder="Message" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+</body>
+</html>
